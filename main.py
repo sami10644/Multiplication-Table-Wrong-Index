@@ -13,6 +13,7 @@ def iscorrect(table,number):
     return None
 
 
+
 if __name__=="__main__":
     number=int(input())
     v=Xx(number)
