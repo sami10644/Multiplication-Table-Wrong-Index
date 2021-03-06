@@ -11,6 +11,7 @@ def iscorrect(table,number):
             return i-1
     return None
 
+
 if __name__=="__main__":
     number=int(input())
     v=Xx(number)
