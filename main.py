@@ -5,6 +5,7 @@ def Xx(number):
     table[wrong]=table[wrong]+random.randint(0,10)
     return table
 
+
 def iscorrect(table,number):
     for i in range(1,11):
         if table[i-1] != i*number:
