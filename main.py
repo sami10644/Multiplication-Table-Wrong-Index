@@ -6,6 +6,7 @@ def Xx(number):
     return table
 
 
+
 def iscorrect(table,number):
     for i in range(1,11):
         if table[i-1] != i*number:
